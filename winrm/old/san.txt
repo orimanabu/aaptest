@@ -1,0 +1,1 @@
+subjectAltName = DNS:wintest1, DNS:WINTEST1, IP:192.168.122.70

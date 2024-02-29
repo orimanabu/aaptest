@@ -1,0 +1,13 @@
+[windows]
+#192.168.122.70
+192.168.122.156
+
+[windows:vars]
+ansible_connection=winrm
+ansible_winrm_port=5986
+ansible_winrm_server_cert_validation=ignore
+ansible_winrm_transport=certificate
+#ansible_winrm_cert_pem=/home/ori/winrm/pki/client.pem
+#ansible_winrm_cert_key_pem=/home/ori/winrm/pki/client.key
+ansible_winrm_cert_pem=pki/client.pem
+ansible_winrm_cert_key_pem=pki/client.key
